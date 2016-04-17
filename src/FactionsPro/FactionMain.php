@@ -213,9 +213,9 @@ public function newPlot($faction, $x1, $z1, $x2, $z2) {
 	
 	public function formatMessage($string, $confirm = false) {
 		if($confirm) {
-			return "[" . TextFormat::BLUE . "FactionsPro" . TextFormat::WHITE . "] " . TextFormat::GREEN . "$string";
+			return "[" . TextFormat::BLUE . "Factions" . TextFormat::WHITE . "] " . TextFormat::GREEN . "$string";
 		} else {	
-			return "[" . TextFormat::BLUE . "FactionsPro" . TextFormat::WHITE . "] " . TextFormat::RED . "$string";
+			return "[" . TextFormat::BLUE . "Factions" . TextFormat::WHITE . "] " . TextFormat::RED . "$string";
 		}
 	}
 	
