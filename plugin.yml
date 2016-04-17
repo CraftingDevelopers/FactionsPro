@@ -3,10 +3,10 @@ author: Tethered_, HostingItAll.com
 description: A Plugin For Easily Managing Factions
 version: 1.4.1
 main: FactionsPro\FactionMain
-api: [1.12.0]
+api: [1.0.0,2.0.0]
 commands:
   f:
-    description: use /f help for all parameters
+    description: Main command of the HypPE Factions Core
     permission: f.command
 permissions:
   f.command:
